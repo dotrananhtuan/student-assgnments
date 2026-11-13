@@ -1,0 +1,13 @@
+{
+  "appName": "Student Portal",
+  "deadline": "Deadline",
+  "submitted_at": "Submitted at",
+  "not_submitted": "Not submitted",
+  "NOT_SUBMITTED": "Not Submitted",
+  "OVERDUE": "Overdue",
+  "SUBMITTED": "Submitted",
+  "LATE": "Late",
+  "loading": "Loading assignments",
+  "empty": "No assignments available",
+  "refresh": "Refresh"
+}

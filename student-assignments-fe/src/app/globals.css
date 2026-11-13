@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+.background {
+  position: relative;
+  overflow: hidden;
+  background: #b5e8f6;
+}
+
+.background::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: #95dbf1;
+  clip-path: ellipse(40% 40% at 0% 0%);
+}

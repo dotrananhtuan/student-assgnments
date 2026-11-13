@@ -1,0 +1,13 @@
+{
+  "appName": "Bài tập của tôi",
+  "deadline": "Hạn nộp",
+  "submitted_at": "Đã nộp lúc",
+  "not_submitted": "Chưa nộp bài",
+  "NOT_SUBMITTED": "Chưa nộp",
+  "OVERDUE": "Quá hạn",
+  "SUBMITTED": "Đã nộp",
+  "LATE": "Nộp muộn",
+  "loading": "Đang tải danh sách bài tập",
+  "empty": "Không có bài tập nào",
+  "refresh": "Làm mới"
+}
