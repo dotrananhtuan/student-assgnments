@@ -111,6 +111,7 @@ Bên cạnh các yêu cầu cốt lõi, dự án được bổ sung thêm các t
 
 - **Hỗ trợ chuyển đổi ngôn ngữ:** Giao diện tích hợp sẵn bộ chuyển đổi linh hoạt giữa **Tiếng Việt (vi)** và **Tiếng Anh (en)**.
 - **Cơ chế lưu trữ:** Trạng thái ngôn ngữ được quản lý thông qua Context API và đồng bộ trực tiếp giúp người dùng duy trì trải nghiệm liền mạch khi chuyển trang hoặc tải lại ứng dụng.
+  ![Hỗ trợ đa ngôn ngữ](./screenshot/dashboard-english.png)
 
 ### 2. Xử lý lỗi API toàn diện (API Error Handling & States)
 
