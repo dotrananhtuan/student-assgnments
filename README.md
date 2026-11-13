@@ -88,6 +88,7 @@ Dưới đây là giao diện thực tế của Dashboard quản lý bài tập 
   - Endpoint trả về chính xác danh sách 4 bài tập của `S01` (A01, A02, A03, A04).
   - Hoàn toàn không xuất hiện bài `B01` của `S02` (do API định danh ngầm định phía server, không nhận `studentId` từ query/params).
   - Trường trạng thái `status` được tính toán khớp tuyệt đối với mốc thời gian giả lập.
+    ![Kiểm thử api](./screenshot/postman-api-preview.png)
 
 ### 2. Kiểm thử Giao diện Frontend
 
@@ -117,6 +118,8 @@ Bên cạnh các yêu cầu cốt lõi, dự án được bổ sung thêm các t
 - **Xử lý lỗi kết nối / Lỗi Server (Error & Warning States):**
   - Khi API gặp sự cố (mất kết nối, timeout, hoặc lỗi 500 từ server), hệ thống bắt lỗi ở tầng gọi API và hiển thị thông báo lỗi thân thiện (Warning State / Error Banner) thay vì làm sập trang.
   - Cung cấp nút **Thử lại (Retry)** để người dùng có thể kích hoạt lại luồng gọi dữ liệu ngay lập tức mà không cần F5 lại toàn bộ trình duyệt.
+    ![Handle loading](./screenshot/loading-preview.png)
+    ![Handle error khi gọi api](./screenshot/error-handle.png)
 
 ### 3. Tính năng Tải lại dữ liệu (Refresh Action)
 
