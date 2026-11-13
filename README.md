@@ -43,7 +43,8 @@ Hệ thống sử dụng mốc thời gian cố định theo yêu cầu đề b�
    yarn start / npm start
    ```
 
-1. **Cài đặt và chạy thư mục student-assignments-fe (Frontend):**
+2. **Cài đặt và chạy thư mục student-assignments-fe (Frontend):**
+
    ```bash
    # Di chuyển vào thư mục student-assignments-fe
    cd student-assignments-fe
@@ -67,7 +68,7 @@ Dự án đã được phát triển và kiểm thử thành công trên môi tr
 
 Dưới đây là giao diện thực tế của Dashboard quản lý bài tập học viên (hỗ trợ chuyển đổi ngôn ngữ Anh - Việt và xử lý trực quan các trạng thái bài nộp):
 
-![Giao diện Dashboard](./screenshort/dashboard.png)
+![Giao diện Dashboard](./screenshot/dashboard.png)
 
 ## 🔒 Cơ chế bảo mật & Chống lộ dữ liệu S02
 
@@ -86,7 +87,7 @@ Dưới đây là giao diện thực tế của Dashboard quản lý bài tập 
 - **Kết quả thực tế:**
   - Endpoint trả về chính xác danh sách 4 bài tập của `S01` (A01, A02, A03, A04).
   - Hoàn toàn không xuất hiện bài `B01` của `S02` (do API định danh ngầm định phía server, không nhận `studentId` từ query/params).
-  - Các trường trạng thái (`status`, `isLate`) được tính toán khớp tuyệt đối với mốc thời gian giả lập.
+  - Trường trạng thái `status` được tính toán khớp tuyệt đối với mốc thời gian giả lập.
 
 ### 2. Kiểm thử Giao diện Frontend
 
